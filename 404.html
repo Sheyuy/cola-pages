@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Redirecting...</title></head>
+<body>
+<script>
+// CrossComply AI SPA routing for GitHub Pages
+// Saves the original path and redirects to the app root
+var path = location.pathname.replace(/^\/cola-pages\/crosscomply-ai/, '') || '/';
+sessionStorage.setItem('spa-redirect', path);
+location.replace('/cola-pages/crosscomply-ai/');
+</script>
+</body>
+</html>
